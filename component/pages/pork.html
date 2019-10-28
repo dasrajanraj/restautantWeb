@@ -4,19 +4,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Menu</title>
+        <title>Pork</title>
         <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Suur 6, Jõgeva, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
         <!--Bootstrap CDN files-->
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
           <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-          <link rel="stylesheet" href="./component/css/style.css">    
+          <link rel="stylesheet" href="../css/style.css">    
     </head>
     <body>
         <!--This is for navigation and all the header element like a logo and language selection-->
         <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="./component/Image/royalAsianRestaurant.png" alt="Royal Asia Restautant"></a>
+          <a class="navbar-brand" href="#"><img src="../Image/royalAsianRestaurant.png" alt="Royal Asia Restautant"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,35 +24,33 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
               <li class="nav-item active">
-                <a class="nav-link m-auto" href="#home">Home</a>
+                <a class="nav-link m-auto" href="../../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#aboutUs">About Us</a>
+                <a class="nav-link" href="../../index.html#aboutUs">About Us</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Our Menu
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Appetisers</a>
-                  <a class="dropdown-item" href="#">Soups</a>
-                  <a class="dropdown-item" href="#">Salads</a>
+                  <a class="dropdown-item" href="./appitiser.html">Appetisers</a>
+                  <a class="dropdown-item" href="./soups.html">Soups</a>
+                  <a class="dropdown-item" href="./salad.html">Salads</a>
   
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Chicken</a>
+                  <a class="dropdown-item" href="./chicken.html">Chicken</a>
                   <a class="dropdown-item" href="#">Pork</a>
-                  <a class="dropdown-item" href="#">Beef</a>
-                  <a class="dropdown-item" href="#">Lamb</a>
-                  <a class="dropdown-item" href="#">Seafood</a>
-                  <a class="dropdown-item" href="#">Other Meats</a>
+                  <a class="dropdown-item" href="./beef.html">Beef</a>
+                  <a class="dropdown-item" href="./lamb.html">Lamb</a>
+                  <a class="dropdown-item" href="./seafood.html">Seafood</a>
+                  <a class="dropdown-item" href="./other_meat.html">Other Meats</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Vegetarian</a>
-                  <a class="dropdown-item" href="#">Side Dishes</a>
+                  <a class="dropdown-item" href="./vegetarian.html">Vegetarian</a>
+                  <a class="dropdown-item" href="./side_dish.html">Side Dishes</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Children's Menu</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Desserts</a>
-                  <a class="dropdown-item" href="#">Drinks</a>      
+                  <a class="dropdown-item" href="./dessert.html">Desserts</a>
+                  <a class="dropdown-item" href="./drinks.html">Drinks</a>      
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -65,7 +63,7 @@
                  </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
+                <a class="nav-link" href="../../index.html#contact">Contact Us</a>
               </li>
               
             </ul>
@@ -73,24 +71,81 @@
         </nav>
         </header>
         <main>
-            <h1> This is menu page</h1>
+            <div class="page">
+                <div class="content">
+                <p class="topic">Pork</p>
+                <h5>All the dishes with Indian and Thai are served with steamed basmati rice for free</h5>
+                <p>*** stands for how much spicy they are</p>    
+                <hr class="hori">
+                <table>
+                  <tr>
+                  <th class="sno">S No.</th>
+                  <th class="description">Roll</th>
+                  <th class="price">Price(&#65505)</th>
+                  </tr>
+                  <tr>
+                        <td>72</td>
+                        <td><span class="first"> G</span>reen pork curry** <br>
+                        <span class="desc"> Marinated fried pork cube cooked in green curry paste with vegetables and coconut milk </span></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>73</td>
+                        <td><span class="first"> R</span>ed curry pork* <br>
+                        <span class="desc"> Marinated fried pork cube cooked in red curry paste with vegetables and coconut milk </span></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>74</td>
+                        <td><span class="first"> M</span>assaman curry pork  <br>
+                        <span class="desc"> Marinated fried pork cube cooked in massaman paste with vegetables and coconut milk </span></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                            <td>89</td>
+                            <td><span class="first"> P</span>ork masala*  <br>
+                            <span class="desc"> Slices of fried pork cooked in creamy sauce with herb and spices </span></td>
+                            <td>8.0</td>
+                        </tr>
+                        <tr>
+                            <td>90</td>
+                            <td><span class="first"> P</span>ork rara* <br>
+                            <span class="desc"> Slices of fried pork cooked in curry sauce with cream and spices </span></td>
+                            <td>8.0</td>
+                        </tr>
+                        <tr>
+                            <td>91</td>
+                            <td><span class="first"> S</span>pinach pork*  <br>
+                            <span class="desc"> Slices of fried pork cooked in creamy curry sauce with spinach, herbs and spices </span></td>
+                            <td>8.0</td>
+                        </tr>
+                        <tr>
+                            <td>92</td>
+                            <td><span class="first"> P</span>ork korma <br>
+                            <span class="desc"> Slices of fried pork cooked in creamy sauce with cashew nuts, coconut and spices  </span></td>
+                            <td>8.0</td>
+                        </tr>
+                                            
+                </table>
+                </div>
+            </div>
         </main>
         <footer class="footer-distributed">
  
                 <div class="footer-left">
-                    <img src="./component/Image/royalAsianRestaurant.png">
+                    <img src="../Image/royalAsianRestaurant.png">
                   <h3>Royal<span>Asian</span>Restaurant</h3>
            
                   <p class="footer-links">
-                    <a href="#home">Home</a>
+                    <a href="../../index.html">Home</a>
                     |
-                    <a href="#aboutUs">About Us</a>
+                    <a href="../../index.html#aboutUs">About Us</a>
                     |
-                    <a href="#menu">Our Menu</a>
+                    <a href="../../index.html#menu">Our Menu</a>
                     |
-                    <a href="#service">Our Service</a>
+                    <a href="../../index.html#service">Our Service</a>
                     |
-                    <a href="#contact">Contact</a>
+                    <a href="../../index.html#contact">Contact</a>
                   </p>
            
                   <p class="footer-company-name">© 2019 Rajan Raj Das</p>
@@ -120,11 +175,11 @@
                     </div>
                     <br>
                     <div>
-                      <h4 style="color: aliceblue;">Language</h4>
-                    <a href="#">eng</a>
-                    <a href="#">est</a>
-                    <a href="#">rus</i></a>
-                    </div>
+                        <h4 style="color: aliceblue;">Language</h4>
+                      <a href="#"><img src="../Image/estonia.png" alt="est"></a>
+                      <a href="#"><img src="../Image/english-language.png" alt="eng"></a>
+                      <a href="#"><img src="../Image/russia.png" alt="rus"></a>
+                      </div>
                   </div>
                 </div>
               

@@ -320,7 +320,77 @@ footer{
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
  
- 
+/*menu page*/
+.page{
+	margin: 20px 250px ;
+    border: 10px solid #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;	
+} 
+
+.content {
+	padding: 20px;
+}
+h2 {
+	color: #2c3e50;
+}
+.para{
+	border-left: 5px solid #bdc3c7;
+	padding: 5px;
+}
+.topic{
+	font-weight: bolder;
+	font-size: 20px;
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}   
+
+.hori{
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+.hori:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
+}
+
+table , tr,td,th{
+    border:1px solid white;
+    border-collapse: collapse;
+}
+th{
+  color: #fb0000;  
+}
+td > .first{
+    font-size:22px;
+    color:red;
+}
+.price{
+    width:30vh;
+}
+.description{
+    width:80vh;
+}
+.price{
+    width:30vh;
+}
+.desc{
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+
 @media (max-width: 880px) {
  
 	.footer-distributed .footer-left,
