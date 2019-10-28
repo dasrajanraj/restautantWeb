@@ -34,7 +34,8 @@ header{
     background-color: rgba(0, 0, 0, 0.6);
 }
 .carousel-inner > .carousel-item > img{
-    padding-left:20% ;
+    padding-left:30vh ;
+    padding-left:30vh ;
     margin: 0;
     width: 80%;
     height: 90vh;
@@ -194,7 +195,7 @@ footer{
  
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font-size:20;
 	margin: 0;
 }
  
@@ -239,7 +240,7 @@ footer{
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
-	font-size: 25px;
+	font-size: 20px;
 	width: 38px;
 	height: 38px;
 	border-radius: 50%;
@@ -428,7 +429,10 @@ td > .first{
     .aboutUs-image{
         padding:2%;
     }    
-
+    .embeddedmap{
+        width: 70vh;
+        height: 85%;
+    }
 }
 
 
@@ -444,7 +448,10 @@ td > .first{
     .aboutUs-image{
         padding:0;
     }
-
+    .embeddedmap{
+        width: 70vh;
+        height: 80%;
+    }
 }
 
 /*mobile phone*/
