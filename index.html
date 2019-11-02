@@ -3,15 +3,18 @@
     <meta lang="en-GB">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
         <title>Home EN - Royal Asian Restaurant</title>
-        <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Suur 6, Jõgeva, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
+        <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Kaarli Pst 9, Tallinn, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
+        <!--jQuery include-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
         <!--Bootstrap CDN files-->
+        <script src="form.js"></script>
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="./component/css/style.css">    
           <script src="https://kit.fontawesome.com/d62bf6ec58.js" crossorigin="anonymous"></script>
+           
         </head>
     <body>
         <!--This is for navigation and all the header element like a logo and language selection-->
@@ -69,9 +72,9 @@
             </ul>
           </div>
           <div class="language">
-              <a href="#"><img src="./component/Image/estonia.png" alt="est"></a>
-              <a href="#" class="active"><img src="./component/Image/english-language.png" alt="eng"></a>
-              <a href="#"><img src="./component/Image/russia.png" alt="rus"></a>
+              <a href="./component/est/est-index.html"><img src="./component/Image/estonia.png" alt="est"></a>
+              <a href="#"><img src="./component/Image/english-language.png" alt="eng"></a>
+             <!-- <a href="#"><img src="./component/Image/russia.png" alt="rus"></a>-->
               </div>
         </nav>
         </header>
@@ -123,29 +126,44 @@
                <center><h2 class="aboutUs-heading">About Us</h2> </center> 
                 <hr class="hr-style">
             </div>
-            <div class="row">
-              <div class="offset-md-1"></div>   
-              <div class="col-md-5">
-                    <div class = "aboutUs-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in">
-                        <img src="./component/Image/aboutUs.jpg" alt="Image of Restaurant">
-                    </div>
-                </div> 
-               
-              <div class="col-md-5 offset-md-1" >
-                
-                <div class="aboutUs-content imae" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in">
-  
-                  <h3>Welcome to the Royal Asian Restaurant!</h3>
-                  <p>We are located in heart of Jõgeva County at Suur 6. We offer delicious different kitchens’ cuisines such as Chinese, Thai, Indian & Nepali.</p>
-                  <p>Our cuisines are made from fresh ingredients according to the original recipes.</p>
+            <div class="row">   
+              <div class="col-md-12">
+                  <div id="demo" class="carousel slide" data-ride="carousel">
 
-                  <p>We offer free basmati rice with Nepalese and Thai meat dishes and give 10 % discount to students and teachers with the ISIC and ITIC cards.</p>
-                  <p>Delivery to home and take away are offered to our clients.</p>    
-                      
-                  <p>Daily offers M-F at 10-15: Day Special Lunch € 3.20 (with 1. Rice or 2. Noodles) and 3. Soup € 2 together with free lemon water.</p>    
-                      
-                  <p>Please contact with us in advance for major birthdays and celebrations.<br>Come and Enjoy with Us !!</p>    
-                </div>
+                      <!-- Indicators -->
+                      <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                      </ul>
+                    
+                      <!-- The slideshow -->
+                      <div class="carousel-inner" id="carao">
+                        <div class="carousel-item active">
+                          <img class="abt" src="./component/Image/about.jpg" alt="img1">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="abt" src="./component/Image/about1.jpg" alt="img2">
+                        </div>
+                      </div>
+                    
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
+                    </div>
+              </div>    
+              <div class="col-md-12" >
+                  <div class="aboutUs-content imae">
+                    <center>
+                    <h3>Welcome to the Royal Asian Restaurant!</h3>
+                    <p>We are located in Old town of Tallinn. <br> We offer delicious different kitchens’ cuisines such as Chinese, Thai, Indian & Nepali.<br>
+                    Our cuisines are made from fresh ingredients according to the original recipes.<br>Come and Enjoy with Us !!</p></center>
+              </div>
+            </div>  
+              
             </div>
           </div>
           <!--#####About Us -->
@@ -160,11 +178,10 @@
                 <div class="col-md-3">
                   <div class="menu-item-group " data-aos="fade-right" data-aos-duration="1000" >
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image1.jpg" alt="Card image">
+                          <img class="card-img-top" src="./component/Image/appitiser.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">Appetiser</h4>
+                            <a href="./component/pages/appitiser.html" class="btn btn-primary btn-sm">More Related</a>
                           </div>
                         </div>
                   </div>
@@ -172,23 +189,21 @@
                 <div class="col-md-3">
                   <div class="menu-item-group"data-aos="fade-down" data-aos-duration="1000">
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image2.jpg" alt="Card image">
+                          <img class="card-img-top" src="./component/Image/soup.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">Soup</h4>
+                            <a href="./component/pages/soups.html" class="btn btn-primary btn-sm">More Related</a>
                           </div>
                         </div>
                   </div> 
                 </div>
                 <div class="col-md-3">
-                  <div class="menu-item-group" data-aos="fade-left btn-sm" data-aos-duration="1000">
+                  <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image3.jpg" alt="Card image">
+                          <img class="card-img-top" src="./component/Image/chicken.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">Chicken</h4>
+                            <a href="./component/pages/chicken.html" class="btn btn-primary btn-sm">More Related</a>
                           </div>
                         </div>
                   </div>
@@ -199,10 +214,9 @@
                   <div class="col-md-3">
                     <div class="menu-item-group " data-aos="fade-right" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image1.jpg" alt="Card image">
+                            <img class="card-img-top" src="./component/Image/vegetarian.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
+                              <h4 class="card-title">Vegetarian</h4>
                               <a href="#" class="btn btn-primary btn-sm">More Related</a>
                             </div>
                           </div>
@@ -211,11 +225,10 @@
                   <div class="col-md-3">
                     <div class="menu-item-group"data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image3.jpg" alt="Card image">
+                            <img class="card-img-top" src="./component/Image/rice.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
-                              <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                              <h4 class="card-title">Fried Rice</h4>
+                              <a href="./component/pages/side_dish.html" class="btn btn-primary btn-sm">More Related</a>
                             </div>
                           </div>
                     </div> 
@@ -223,11 +236,10 @@
                   <div class="col-md-3">
                     <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image2.jpg" alt="Card image">
+                            <img class="card-img-top" src="./component/Image/drinks.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
-                              <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                              <h4 class="card-title">Drinks</h4>
+                              <a href="./component/pages/drinks.html" class="btn btn-primary btn-sm">More Related</a>
                             </div>
                           </div>
                     </div>
@@ -249,12 +261,15 @@
                     <div class="reservationContent" data-aos="flip-up" data-aos-duration="1000">
                       <center>  
                       <div class="icon-space">
-                            <i class="fa fa-bookmark fa-5x"></i>
+                        
+                            <!--<i class="fa fa-bookmark fa-5x"></i>-->
+                            <img src="./component/Image/reserve.png" alt="reservation">
                         </div>
                         <h4>Table Reservation</h4>
                         
                         <p>You can reserve a table in our restaurant and come at a scheduled time!</p>
-                        <a href="#">Reserve now! <i class="fas fa-arrow-right"></i></a></center>
+                        <!--<a href="#">Reserve now! <i class="fas fa-arrow-right"></i></a></center>-->
+                        <a href="tel:+37254633966"><i class="fas fa-phone"></i>  +37254633966<br>For Reservation Call Us!</a></center>
                     </div>
                   </div>
                   <div class="col-md-5">
@@ -266,7 +281,8 @@
                         <h4>TakeAway Food</h4>
                         
                         <p>Come and take it away with you!</p>
-                        <a href="#">TakeAway now! <i class="fas fa-arrow-right"></i></a></center>
+                        <!--<a href="#">TakeAway now! <i class="fas fa-arrow-right"></i></a></center>-->
+                        <a href="tel:+37254633966"><i class="fas fa-phone"></i> +37254633966<br>Call Us!</a></center>
                     </div>
                       
                   </div>
@@ -286,42 +302,48 @@
               <div class="offset-md-1"></div>
                <div class="col-md-5">
                  <div class="embeddedmap" data-aos="zoom-out" data-aos-duration="1000">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2070.0216585372964!2d26.398229999999998!3d58.746462199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4694a8e0e8d67975%3A0x6ff8bc23a69b962!2sKashmir%20Restoran%20and%20caffee!5e0!3m2!1sen!2sin!4v1572163733700!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2029.0651071795676!2d24.738989451348722!3d59.43198768160498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692949c18c6e5ab%3A0x635aae3177461db0!2sKaarli%20puiestee%209%2C%2010142%20Tallinn%2C%20Estonia!5e0!3m2!1sen!2sin!4v1572353801489!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   </div>
                   
                 </div>
                <div class="col-md-5">
                  <div class="form-content" data-aos="fade-left" data-aos-duration="1000">
-                      <center><h4>Drop Us a Message!</h4></center>
+                      <center><h4>Drop Us a Message!</h4>
                       <div class="row">
-                        <div class="col-lg-12">
-                            <form class="contactForm">
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="field form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"/>
+                          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 mr-auto ml-auto">
+                              <div class="panel panel-danger">
+                                  <div class="panel-body">
+                                      <form id="reused_form">
+                                          <div class="form-group">
+                                              <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                              <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                          </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                                      <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                                      <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                                  </div>
+                                              </form>
+                                              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                                  <h4>
+                                                      Error
+                                                  </h4>
+                                                  Sorry there was an error sending your form. 
+                                              </div>
+                                              <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h2>Success! Your Message was Sent Successfully.</h2>
+              </div>
+                                          </div>
+                                      </div>
                                   </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your Email"/>
-                      
-                                  </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12">
-                                  <div class="field message form-group">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                                  </div>
-                                  <div class="col-lg-12">
-                                      <input type="submit" value="Send message" class="btn btn-info">
-                                  </div>
-                                  
-                                </div>
                               </div>
-                            </form>
-                        </div>
-                      </div>
+                            </center>
                 </div>
               </div>
                <div class="offset-md-1"></div>
@@ -334,7 +356,7 @@
  
             <div class="footer-left">
                 <img src="./component/Image/royalAsianRestaurant.png">
-              <h3>Royal<span>Asian</span>Restaurant</h3>
+              <h4>Royal <span> Asian</span> Restaurant</h4>
        
               <p class="footer-links">
                 <a href="#home">Home</a>
@@ -348,37 +370,35 @@
                 <a href="#contact">Contact</a>
               </p>
        
-              <p class="footer-company-name">© 2019 Rajan Raj Das</p>
+              <p class="footer-company-name"> RoyalAsian</p>
             </div>
        
             <div class="footer-center">
               <div>
-                <i class="fas fa-map-marker"></i>
+               <a href="https://goo.gl/maps/Jrxxd3rGeQDYHFLy7" target="_blank"> <i class="fas fa-map-marker"></i>
                   <p><span>Royal Asian Restaurant<br> 
-                      Suur 6, Jõgeva, Estonia</span></p>
+                      Kaarli Pst 9, Tallinn, Estonia</span></p></a>
                   </div>
               <div>
-                <i class="fas fa-phone"></i>
-                <p>7732313</p>
+                <a href="tel:+37254633966"><i class="fas fa-phone"></i>
+                    <p>+37254633966</p></a>
               </div>
               <div>
-                <i class="fas fa-envelope"></i>
-                <p><a href="mailto:abcde@example.com">royalasianrest@gmail.com</a></p>
+               
+                <p><a href="mailto:info@royalasian.ee"><i class="fas fa-envelope"></i>info@royalasian.ee</a></p>
               </div>
             </div>
             <div class="footer-right">
               <div class="footer-icons">
                 <div>
-                  <a href="#"><i class="fa fa-facebook"></i></a>  
-                </div>
-                <div><a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/royalasian.ee/"><i class="fab fa-facebook-f"></i></a>  
                 </div>
                 <br>
                 <div>
                   <h4 style="color: aliceblue;">Language</h4>
-                <a href="#"><img src="./component/Image/estonia.png" alt="est"></a>
+                <a href="./component/est/est-index.html"><img src="./component/Image/estonia.png" alt="est"></a>
                 <a href="#"><img src="./component/Image/english-language.png" alt="eng"></a>
-                <a href="#"><img src="./component/Image/russia.png" alt="rus"></a>
+                <!--<a href="#"><img src="./component/Image/russia.png" alt="rus"></a>-->
                 </div>
               </div>
             </div>
@@ -391,6 +411,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
         <script>
             AOS.init();
-          </script>
+        </script>
       </body>
-</html> 
+</html>

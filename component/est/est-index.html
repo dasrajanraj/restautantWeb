@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <meta lang="et-GB">
+    <meta lang="en-GB">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home Estonia - Royal Asian Restaurant</title>
-        <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Suur 6, Jõgeva, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+        <title>Kudo Est - Aasia kuninglik restoran</title>
+        <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Kaarli Pst 9, Tallinn, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
         <!--Bootstrap CDN files-->
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-          <link rel="stylesheet" href="./component/css/style.css">    
+          <link rel="stylesheet" href="../css/style.css">    
           <script src="https://kit.fontawesome.com/d62bf6ec58.js" crossorigin="anonymous"></script>
+          <script src="../../form.js"></script>
         </head>
     <body>
         <!--This is for navigation and all the header element like a logo and language selection-->
         <header>  
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#"><img src="./component/Image/royalAsianRestaurant.png" alt="Royal Asia Restautant"></a>
+          <a class="navbar-brand" href="#"><img src="../Image/royalAsianRestaurant.png" alt="Royal Asia Restautant"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,52 +28,50 @@
                 <a class="nav-link m-auto" href="#home">Kodu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#aboutUs">About Us</a>
+                <a class="nav-link" href="#aboutUs">Meist</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Our Menu
+                  Meie menüü
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./component/pages/appitiser.html">Appetisers</a>
-                  <a class="dropdown-item" href="./component/pages/soups.html">Soups</a>
-                  <a class="dropdown-item" href="./component/pages/salad.html">Salads</a>
+                  <a class="dropdown-item" href="../pages/est_appitiser.html">Sööjad</a>
+                  <a class="dropdown-item" href="../pages/est_soups.html">Supid</a>
+                  <a class="dropdown-item" href="../pages/est_salad.html">Salatid</a>
   
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Chicken</a>
-                  <a class="dropdown-item" href="#">Pork</a>
-                  <a class="dropdown-item" href="#">Beef</a>
-                  <a class="dropdown-item" href="#">Lamb</a>
-                  <a class="dropdown-item" href="./component/pages/seafood.html">Seafood</a>
-                  <a class="dropdown-item" href="./component/pages/other_meat.html">Other Meats</a>
+                  <a class="dropdown-item" href="../pages/est_chicken.html">Kana</a>
+                  <a class="dropdown-item" href="../pages/est_pork.html">Sealiha</a>
+                  <a class="dropdown-item" href="./pages/est_pork.html">Veiseliha</a>
+                  <a class="dropdown-item" href="../pages/est_lamb.html">Lambaliha</a>
+                  <a class="dropdown-item" href="../pages/est_seafood.html">Mereannid</a>
+                  <a class="dropdown-item" href="../pages/est_other_meat.html">Muu liha</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Vegetarian</a>
-                  <a class="dropdown-item" href="./component/pages/side_dish.html">Side Dishes</a>
+                  <a class="dropdown-item" href="../pages/est_vegetarian.html">Taimetoitlane</a>
+                  <a class="dropdown-item" href="../pages/est_side_dish.html">Kõrvalroad</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Children's Menu</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./component/pages/dessert.html">Desserts</a>
-                  <a class="dropdown-item" href="./component/pages/drinks.html">Drinks</a>      
+                  <a class="dropdown-item" href="../pages/est_dessert.html">Magustoidud</a>
+                  <a class="dropdown-item" href="../pages/est_drinks.html">Joogid</a>      
                 </div>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Our Services
+                  Meie teenused
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Reservation</a>
-                  <a class="dropdown-item" href="#">Take Away</a>
+                  <a class="dropdown-item" href="#service">Reservation</a>
+                  <a class="dropdown-item" href="#service">Take Away</a>
                  </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
+                <a class="nav-link" href="#contact">Võta meiega ühendust</a>
               </li>
             </ul>
           </div>
           <div class="language">
-              <a href="#"><img src="./component/Image/estonia.png" alt="est"></a>
-              <a href="#" class="active"><img src="./component/Image/english-language.png" alt="eng"></a>
-              <a href="#"><img src="./component/Image/russia.png" alt="rus"></a>
+              <a href="#"><img src="../Image/estonia.png" alt="est"></a>
+              <a href="../../index.html"><img src="../Image/english-language.png" alt="eng"></a>
+            <!--  <a href="#"><img src="../Image/russia.png" alt="rus"></a>-->
               </div>
         </nav>
         </header>
@@ -96,16 +94,16 @@
                   <!-- The slideshow -->
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="./component/Image/image1.jpg" alt="img1">
+                      <img src="../Image/image1.jpg" alt="img1">
                     </div>
                     <div class="carousel-item">
-                      <img src="./component/Image/image2.jpg" alt="img2">
+                      <img src="../Image/image2.jpg" alt="img2">
                     </div>
                     <div class="carousel-item">
-                      <img src="./component/Image/image3.jpg" alt="img3">
+                      <img src="../Image/image3.jpg" alt="img3">
                     </div>
                     <div class="carousel-item">
-                      <img src="./component/Image/image4.jpg" alt="img4">
+                      <img src="../Image/image4.jpg" alt="img4">
                     </div>
                   </div>
                 
@@ -122,38 +120,53 @@
           <!--About Us page-->
           <div class="aboutUs" id="aboutUs">
             <div class="aboutUs-headingContent">
-               <center><h2 class="aboutUs-heading">About Us</h2> </center> 
+               <center><h2 class="aboutUs-heading">Meist</h2> </center> 
                 <hr class="hr-style">
             </div>
-            <div class="row">
-              <div class="offset-md-1"></div>   
-              <div class="col-md-5">
-                    <div class = "aboutUs-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in">
-                        <img src="./component/Image/aboutUs.jpg" alt="Image of Restaurant">
-                    </div>
-                </div> 
-               
-              <div class="col-md-5 offset-md-1" >
-                
-                <div class="aboutUs-content imae" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in">
+            <div class="row">   
+                <div class="col-md-12">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
   
-                  <h3>Welcome to the Royal Asian Restaurant!</h3>
-                  <p>We are located in heart of Jõgeva County at Suur 6. We offer delicious different kitchens’ cuisines such as Chinese, Thai, Indian & Nepali.</p>
-                  <p>Our cuisines are made from fresh ingredients according to the original recipes.</p>
-
-                  <p>We offer free basmati rice with Nepalese and Thai meat dishes and give 10 % discount to students and teachers with the ISIC and ITIC cards.</p>
-                  <p>Delivery to home and take away are offered to our clients.</p>    
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                        </ul>
                       
-                  <p>Daily offers M-F at 10-15: Day Special Lunch € 3.20 (with 1. Rice or 2. Noodles) and 3. Soup € 2 together with free lemon water.</p>    
+                        <!-- The slideshow -->
+                        <div class="carousel-inner" id="carao">
+                          <div class="carousel-item active">
+                            <img class="abt" src="../Image/about.jpg" alt="img1">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="abt" src="../Image/about1.jpg" alt="img2">
+                          </div>
+                        </div>
                       
-                  <p>Please contact with us in advance for major birthdays and celebrations.<br>Come and Enjoy with Us !!</p>    
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div>
+                </div>    
+                <div class="col-md-12" >
+                    <div class="aboutUs-content imae">
+                      <center>
+                      <h3>Tere tulemast Aasia kuninglikku restorani!s</h3>
+                      <p>Asume Tallinna vanalinnas. <br> Pakume maitsvaid erinevaid köögikööke nagu hiina, tai, india ja nepali. <br>
+                                                 Meie köögid on valmistatud värsketest koostisosadest vastavalt originaalsetele retseptidele. <br> Tulge ja nautige koos meiega !!</p></center>
                 </div>
-            </div>
+              </div>  
+                
+              </div>
           </div>
           <!--#####About Us -->
           <div class="menu" id="menu">
             <div class="menu-heading">
-              <center><h2>Some Special Dishes</h2></center>
+              <center><h2>Mõned eriroogid</h2></center>
               <hr class="hr-style">
             </div>
             <div class="menu-list">
@@ -162,11 +175,10 @@
                 <div class="col-md-3">
                   <div class="menu-item-group " data-aos="fade-right" data-aos-duration="1000" >
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image1.jpg" alt="Card image">
+                          <img class="card-img-top" src="../Image/appitiser.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">SÖÖJAD</h4>
+                            <a href="../pages/est_appitiser.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                           </div>
                         </div>
                   </div>
@@ -174,23 +186,21 @@
                 <div class="col-md-3">
                   <div class="menu-item-group"data-aos="fade-down" data-aos-duration="1000">
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image2.jpg" alt="Card image">
+                          <img class="card-img-top" src="../Image/soup.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">Supid</h4>
+                            <a href="../pages/est_soups.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                           </div>
                         </div>
                   </div> 
                 </div>
                 <div class="col-md-3">
-                  <div class="menu-item-group" data-aos="fade-left btn-sm" data-aos-duration="1000">
+                  <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
                       <div class="card">
-                          <img class="card-img-top" src="./component/Image/image3.jpg" alt="Card image">
+                          <img class="card-img-top" src="../Image/chicken.jpg" alt="Card image">
                           <div class="card-img-overlay">
-                            <h4 class="card-title">Chicken Biryani</h4>
-                            <p class="card-text">Rice ,Chicken and Raita</p>
-                            <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                            <h4 class="card-title">Kana</h4>
+                            <a href="../pages/est_chicken.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                           </div>
                         </div>
                   </div>
@@ -201,11 +211,10 @@
                   <div class="col-md-3">
                     <div class="menu-item-group " data-aos="fade-right" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image1.jpg" alt="Card image">
+                            <img class="card-img-top" src="../Image/vegetarian.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
-                              <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                              <h4 class="card-title">TAIMETOITLANE</h4>
+                              <a href="../pages/est_vegetarian.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                             </div>
                           </div>
                     </div>
@@ -213,11 +222,10 @@
                   <div class="col-md-3">
                     <div class="menu-item-group"data-aos="fade-up" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image3.jpg" alt="Card image">
+                            <img class="card-img-top" src="../Image/image3.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
-                              <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                              <h4 class="card-title">Praetud Riis</h4>
+                              <a href="../pages/side_dish.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                             </div>
                           </div>
                     </div> 
@@ -225,11 +233,10 @@
                   <div class="col-md-3">
                     <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
                         <div class="card">
-                            <img class="card-img-top" src="./component/Image/image2.jpg" alt="Card image">
+                            <img class="card-img-top" src="../Image/image2.jpg" alt="Card image">
                             <div class="card-img-overlay">
-                              <h4 class="card-title">Chicken Biryani</h4>
-                              <p class="card-text">Rice ,Chicken and Raita</p>
-                              <a href="#" class="btn btn-primary btn-sm">More Related</a>
+                              <h4 class="card-title">Joob</h4>
+                              <a href="../pages/est_drinks.html" class="btn btn-primary btn-sm">Rohken Seotud</a>
                             </div>
                           </div>
                     </div>
@@ -241,7 +248,7 @@
           <!--Our Services-->
           <div class="service" id="service">
             <div class="services-heading-items">
-            <center><h2> Our Services</h2></center>
+            <center><h2> Meie teenused</h2></center>
               <hr class="hr-style">
             </div>
             <div class="services-options">
@@ -251,12 +258,14 @@
                     <div class="reservationContent" data-aos="flip-up" data-aos-duration="1000">
                       <center>  
                       <div class="icon-space">
-                            <i class="fa fa-bookmark fa-5x"></i>
+                            <!--<i class="fa fa-bookmark fa-5x"></i>-->
+                            <img src="../Image/reserve.png" alt="reservation">
                         </div>
-                        <h4>Table Reservation</h4>
+                        <h4>Tabeli reserveerimine</h4>
                         
-                        <p>You can reserve a table in our restaurant and come at a scheduled time!</p>
-                        <a href="#">Reserve now! <i class="fas fa-arrow-right"></i></a></center>
+                        <p>Meie restoranis saate laua broneerida ja tulla ettenähtud ajal!</p>
+                        <!--<a href="#">Broneeri kohe!<i class="fas fa-arrow-right"></i></a></center>-->
+                        <a href="tel:+37254633966"><i class="fas fa-phone"></i> +37254633966<br>Broneeri kohe!</a></center>
                     </div>
                   </div>
                   <div class="col-md-5">
@@ -265,10 +274,11 @@
                       <div class="icon-space">
                             <i class="fa fa-shopping-bag fa-5x"></i>
                         </div>
-                        <h4>TakeAway Food</h4>
+                        <h4>TakeAway toit</h4>
                         
-                        <p>Come and take it away with you!</p>
-                        <a href="#">TakeAway now! <i class="fas fa-arrow-right"></i></a></center>
+                        <p>Tule ja vii see koos sinuga ära!</p>
+                        <!--<a href="#">Võtke nüüd kaasa!<i class="fas fa-arrow-right"></i></a></center>-->
+                        <a href="tel:+37254633966"><i class="fas fa-phone"></i> +37254633966<br>Võtke nüüd kaasa!</a></center>                        
                     </div>
                       
                   </div>
@@ -280,7 +290,7 @@
           <!--Contact Page-->
           <div class="contact" id="contact">
             <div class="contact-heading-content">
-              <center><h2>Contact Us</h2></center>
+              <center><h2>Võta meiega ühendust</h2></center>
               <hr class="hr-style">
             </div>
             <div class="contact-content">
@@ -288,42 +298,48 @@
               <div class="offset-md-1"></div>
                <div class="col-md-5">
                  <div class="embeddedmap" data-aos="zoom-out" data-aos-duration="1000">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2070.0216585372964!2d26.398229999999998!3d58.746462199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4694a8e0e8d67975%3A0x6ff8bc23a69b962!2sKashmir%20Restoran%20and%20caffee!5e0!3m2!1sen!2sin!4v1572163733700!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2029.0651071795676!2d24.738989451348722!3d59.43198768160498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692949c18c6e5ab%3A0x635aae3177461db0!2sKaarli%20puiestee%209%2C%2010142%20Tallinn%2C%20Estonia!5e0!3m2!1sen!2sin!4v1572353801489!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                   </div>
                   
                 </div>
                <div class="col-md-5">
                  <div class="form-content" data-aos="fade-left" data-aos-duration="1000">
-                      <center><h4>Drop Us a Message!</h4></center>
+                    <center><h4>Kirjuta meile sõnum!</h4>
                       <div class="row">
-                        <div class="col-lg-12">
-                            <form class="contactForm">
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="field form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"/>
+                          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 mr-auto ml-auto">
+                              <div class="panel panel-danger">
+                                  <div class="panel-body">
+                                      <form id="reused_form">
+                                          <div class="form-group">
+                                              <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                              <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                          </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                                      <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                                      <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                                  </div>
+                                              </form>
+                                              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                                  <h4>
+                                                      Error
+                                                  </h4>
+                                                  Sorry there was an error sending your form. 
+                                              </div>
+                                              <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h2>Success! Your Message was Sent Successfully.</h2>
+              </div>
+                                          </div>
+                                      </div>
                                   </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your Email"/>
-                      
-                                  </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12">
-                                  <div class="field message form-group">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                                  </div>
-                                  <div class="col-lg-12">
-                                      <input type="submit" value="Send message" class="btn btn-info">
-                                  </div>
-                                  
-                                </div>
                               </div>
-                            </form>
-                        </div>
-                      </div>
+                            </center>
                 </div>
               </div>
                <div class="offset-md-1"></div>
@@ -335,52 +351,52 @@
         <footer class="footer-distributed">
  
             <div class="footer-left">
-                <img src="./component/Image/royalAsianRestaurant.png">
-              <h3>Royal<span>Asian</span>Restaurant</h3>
+                <img src="../Image/royalAsianRestaurant.png">
+              <h4>Aasia <span>kuninglik </span>restoran</h4>
        
               <p class="footer-links">
-                <a href="#home">Home</a>
+                <a href="#home">Kodu </a>
                 |
-                <a href="#aboutUs">About Us</a>
+                <a href="#aboutUs">Meist</a>
                 |
-                <a href="#menu">Our Menu</a>
+                <a href="#menu">Meie menüü </a>
                 |
-                <a href="#service">Our Service</a>
+                <a href="#service">Meie teenus</a>
                 |
-                <a href="#contact">Contact</a>
+                <a href="#contact">Võtke ühendust</a>
               </p>
        
-              <p class="footer-company-name">© 2019 Rajan Raj Das</p>
+              <p class="footer-company-name"> KuninglikAasia</p>
             </div>
        
             <div class="footer-center">
               <div>
-                <i class="fas fa-map-marker"></i>
-                  <p><span>Royal Asian Restaurant<br> 
-                      Suur 6, Jõgeva, Estonia</span></p>
+               <a href="https://goo.gl/maps/Jrxxd3rGeQDYHFLy7" target="_blank"> <i class="fas fa-map-marker"></i>
+                  <p><span> 
+                    Aasia kuninglik restoran<br>                    
+                    Kaarli Pst 9, Tallinn, Estonia 
+                     </span></p></a>
                   </div>
               <div>
-                <i class="fas fa-phone"></i>
-                <p>7732313</p>
+                <a href="tel:+37254633966"><i class="fas fa-phone"></i>
+                    <p>+37254633966</p></a>
               </div>
               <div>
-                <i class="fas fa-envelope"></i>
-                <p><a href="mailto:abcde@example.com">royalasianrest@gmail.com</a></p>
+               
+                <p><a href="mailto:info@royalasian.ee"><i class="fas fa-envelope"></i>info@royalasian.ee</a></p>
               </div>
             </div>
             <div class="footer-right">
               <div class="footer-icons">
                 <div>
-                  <a href="#"><i class="fa fa-facebook"></i></a>  
-                </div>
-                <div><a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/royalasian.ee/"><i class="fab fa-facebook-f"></i></a>  
                 </div>
                 <br>
                 <div>
-                  <h4 style="color: aliceblue;">Language</h4>
-                <a href="#"><img src="./component/Image/estonia.png" alt="est"></a>
-                <a href="#"><img src="./component/Image/english-language.png" alt="eng"></a>
-                <a href="#"><img src="./component/Image/russia.png" alt="rus"></a>
+                  <h4 style="color: aliceblue;">Keel</h4>
+                <a href="#"><img src="../Image/estonia.png" alt="est"></a>
+                <a href="../../index.html"><img src="../Image/english-language.png" alt="eng"></a>
+                <!--<a href="#"><img src="../Image/russia.png" alt="rus"></a>-->
                 </div>
               </div>
             </div>
