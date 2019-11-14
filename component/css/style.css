@@ -24,8 +24,8 @@ header{
     float: right;
 }
 .navbar-brand > img{
-    width: 12vh;
-    height: 12vh;
+    width: 10vh;
+    height: 10vh;
 }
 
 .navbar-nav > li{
@@ -47,7 +47,7 @@ header{
     height:10vh;
 }
 .carousel-inner{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 0,0,0.75);
 }
 .carousel-inner > .carousel-item > img{
     padding-left:30vh ;
