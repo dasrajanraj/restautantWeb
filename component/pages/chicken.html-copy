@@ -4,12 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Appitiser</title>
+        <title>Chicken</title>
         <meta name="description" content="Royal, Asian, Restaurant, Chinese, Indian, Nepali, Thai, Food, Suur 6, Jõgeva, Estonia, Reservation, Booking, Online, Order, Takeaway"/>
         <!--Bootstrap CDN files-->
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-          <link rel="stylesheet" href="../css/style.css">    
-          <script src="https://kit.fontawesome.com/d62bf6ec58.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="../css/style.css">   
+          <script src="https://kit.fontawesome.com/d62bf6ec58.js" crossorigin="anonymous"></script> 
     </head>
     <body>
         <!--This is for navigation and all the header element like a logo and language selection-->
@@ -33,12 +33,12 @@
                   Our Menu
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Appetisers</a>
+                  <a class="dropdown-item" href="./appitiser.html">Appetisers</a>
                   <a class="dropdown-item" href="./soups.html">Soups</a>
                   <a class="dropdown-item" href="./salad.html">Salads</a>
   
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="./chicken.html">Chicken</a>
+                  <a class="dropdown-item" href="#">Chicken</a>
                   <a class="dropdown-item" href="./pork.html">Pork</a>
                   <a class="dropdown-item" href="./beef.html">Beef</a>
                   <a class="dropdown-item" href="./lamb.html">Lamb</a>
@@ -72,9 +72,8 @@
         <main>
             <div class="page">
                 <div class="content">
-                <p class="topic">Appetisers</p>
-                <p>All the dishes with Indian and Thai are served with steamed basmati rice for free</p>
-                    
+                <p class="topic">Chicken</p>
+                <p>All the dishes with Indian and Thai are served with steamed basmati rice for free</p>    
                 <hr class="hori">
                 <table>
                   <tr>
@@ -104,7 +103,7 @@
                       <td>4</td>
                       <td><span class="first">M</span>ixed Roll<br>
                           <span class="desc">Crispy fried pancake with shrimps and vegetables</span></td>
-                      <td>5.5</td>
+                      <td>5.0</td>
                   </tr>
                   <tr>
                     <td>5</td>
@@ -120,22 +119,132 @@
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td><span class="first">F</span>rench fries / Honey Potato / Chilly Potato<br>
+                  <td><span class="first">F</span>rench fries<br>
                       <span class="desc"></span></td>
-                  <td>3/4.5/4.5</td>
+                  <td>3.5</td>
                 </tr>
                 <tr>
                     <td>8</td>
-                    <td><span class="first">R</span>oyal Golden Chicken<br>
+                    <td><span class="first">R</span>oyal golden chicken<br>
                         <span class="desc">Sliced cube of chicken fried with golden battered and served with sweet chilly garlic sauce.</span></td>
                     <td>5.5</td>
                 </tr>
                 <tr>
                     <td>9</td>
-                    <td><span class="first">P</span>rawns salt and paper <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span><br>
+                    <td><span class="first">P</span>rawns salt and paper <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span> <br>
                         <span class="desc">Crispy fried pancake with shrimps and vegetables</span></td>
                     <td>8.0</td>
                 </tr>
+                <tr>
+                        <td>39</td>
+                        <td><span class="first">R</span>oyal special chicken <span><i class="fas fa-pepper-hot"></i></span> <br>
+                        <span class="desc"> Marinated fried chicken cooked with coconut milk, and vegetables in Chinese sauce </span></td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td><span class="first">H</span>ong kong chicken <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span> <br>
+                        <span class="desc"> Marinated fried chicken cooked with onion, paprika, and mushroom in Chinese sauce </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td><span class="first">H</span>oney chicken  <br>
+                        <span class="desc">  Crispy fried chicken cube cooked in honey sauce with sesame seed</span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td><span class="first">C</span>rispy Garlic chicken  <br>
+                        <span class="desc"> Crispy fried chicken cube cooked in garlic sauce with vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td><span class="first">S</span>weet and sour chicken <br>
+                        <span class="desc"> Fried chicken cube cooked in sweet and sour sauce with vegetables  </span></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td><span class="first">H</span>ot Garlic Chicken <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span>  <br>
+                        <span class="desc"> Fried chicken cube cooked in hot garlic sauce with vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td><span class="first">C</span>rispy sweet chilly chicken <span><i class="fas fa-pepper-hot"></i></span> <br>
+                        <span class="desc"> Crispy fried chicken cube cooked in sweet chilly sauce </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td><span class="first">O</span>yster chicken <br>
+                        <span class="desc"> Fried chicken cube cooked in oyster sauce with vegetables </span></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td><span class="first">P</span>acking chicken <span><i class="fas fa-pepper-hot"></i></span>  <br>
+                        <span class="desc"> Crispy fried chicken fillet dipped in sweet and sour sauce </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td><span class="first">B</span>amboo pork <br>
+                        <span class="desc"> Marinated fried pork cube cooked with bamboo stick and mushroom in oyster sauce </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td><span class="first">S</span>weet and sour pork <br>
+                        <span class="desc"> Marinated fried pork cube cooked in sweet and sour sauce with vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td><span class="first"> C</span>rispy honey pork  <br>
+                        <span class="desc">  Marinated crispy fried pork cube cooked in honey sauce with sesame seed</span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td><span class="first"> S</span>zechuan garlic pork <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span> <br>
+                        <span class="desc"> Marinated pork fried cube cooked in garlic with Szechuan and vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td><span class="first"> H</span>ot garlic pork <span><i class="fas fa-pepper-hot"></i></span>  <br>
+                        <span class="desc"> Marinated fried pork cube cooked in hot garlic sauce with vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td><span class="first"> H</span>ong kong pork <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span> <br>
+                        <span class="desc"> Marinated fried pork cube cooked in Chinese sauce with vegetables </span></td>
+                        <td>6.5</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>69</td>
+                           <td><span class="first"> G</span>reen chicken curry <span><i class="fas fa-pepper-hot"></i><i class="fas fa-pepper-hot"></i></span> <br>
+                             <span class="desc"> Marinated fried chicken cube cooked in green curry paste with vegetables and coconut milk </span></td>
+                          <td>7</td>
+                    </tr>
+                    <tr>
+                         <td>70</td>
+                           <td><span class="first"> R</span>ed chicken curry <span><i class="fas fa-pepper-hot"></i></span> <br>
+                          <span class="desc"> Marinated fried chicken cube cooked in red curry paste with vegetables and coconut milk </span></td>
+                      <td>7</td>
+                    </tr>
+                    <tr>
+                          <td>71</td>
+                            <td><span class="first"> M</span>assaman chicken curry <span><i class="fas fa-pepper-hot"></i></span> <br>
+                              <span class="desc"> Marinated fried chicken cube cooked in massaman curry paste with vegetables and coconut milk </span></td>
+                          <td>7</td>
+                    </tr>
+                    
                 </table><br><br>
                 <p class="disclaimer"><i class="fas fa-pepper-hot"></i> <i class="fas fa-pepper-hot"> </i> <i class="fas fa-pepper-hot"></i>stands for how much spicy they are</p>
                 </div>
@@ -145,7 +254,7 @@
  
           <div class="footer-left">
               <img src="../Image/royalAsianRestaurant.png">
-            <h4>Royal<span>Asian</span>Restaurant</h4>
+            <h4>Royal<span> Asian </span>Restaurant</h4>
      
             <p class="footer-links">
               <a href="../../index.html#home">Home</a>
