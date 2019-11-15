@@ -182,7 +182,7 @@ header{
 }
 .embeddedmap{
     position: relative;
-    padding-bottom: 90%;
+    padding-bottom: 60%;
     height: 0;
     overflow: hidden;
 }
@@ -191,7 +191,7 @@ header{
         top: 0;
         left: 0;
         width: 100% !important;
-        height: 100% !important;
+        height: 60vh !important;
 }
 .contactForm{
     margin:10vh;
@@ -482,7 +482,7 @@ td > .first{
     }    
     .embeddedmap{
         width: 70vh;
-        height: 85%;
+        height: 85vh;
     }
 }
 
@@ -499,7 +499,7 @@ td > .first{
     }
     .embeddedmap{
         width: 70vh;
-        height: 80%;
+        height: 80vh;
     }
 }
 
