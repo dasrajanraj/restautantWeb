@@ -24,8 +24,8 @@ header{
     float: right;
 }
 .navbar-brand > img{
-    width: 10vh;
-    height: 10vh;
+    width: 5vh;
+    height: 5vh;
 }
 
 .navbar-nav > li{
@@ -503,6 +503,14 @@ td > .first{
     }
 }
 
+/*For small-sized laptop screens*/
+@media only screen and (max-width: 978px) {
+    .page {
+      padding:0;
+      margin:0;
+    }
+}
+
 /*mobile phone*/
 @media only screen and (max-width: 480px) {
     html, body {
@@ -588,3 +596,4 @@ td > .first{
         padding-left: 0;
     }
 }
+
